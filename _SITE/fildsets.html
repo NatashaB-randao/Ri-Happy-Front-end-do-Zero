@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Fieldset</title>
+</head>
+<body>
+
+    <!-- 
+    O elemento <fieldset> é usado em HTML para agrupar vários controles de formulário, 
+    como campos de entrada, botões, checkboxes e outros elementos relacionados. 
+    Ele cria uma borda ao redor do grupo de controles e é frequentemente usado para organizar 
+    visualmente e semanticamente partes de um formulário.
+
+    O <fieldset> geralmente é usado em conjunto com o elemento <legend>, 
+    que fornece uma legenda descritiva para o grupo de controles dentro do <fieldset>, 
+    facilitando a compreensão do propósito do conjunto.
+    -->
+
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade"><br><br>
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>Preferências</legend>
+            
+            <label for="noticias">Deseja receber notícias?</label>
+            <input type="checkbox" id="noticias" name="noticias"><br><br>
+            
+            <label for="cor">Cor favorita:</label>
+            <input type="color" id="cor" name="cor"><br><br>
+            
+        </fieldset>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
