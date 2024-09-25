@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags HTML 5 - Estrutural</title>
+</head>
+<body>
+    <!-- Header: Cabeçalho principal da página -->
+    <header>
+        <h1>Bem-vindo(a) ao Meu Website!</h1>
+
+        <!-- Nav: Navegação principal do site -->
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main: Conteúdo principal da página -->
+    <main>
+        <!-- Aside: Conteúdo lateral ou secundário -->
+        <aside
+            <h2>Artigos Relacionadps</h2>
+            <ul>
+                <li><a href="#">Artigo 1</a></li>
+                <li><a href="#">Artigo 2</a></li>
+                <li><a href="#">Artigo 3</a></li>
+            </ul>
+        </aside>
+
+        <!-- Section: Agrupamento de conteúdo em uma seção lógica -->
+        <section>
+            <h2>Seção Principal</h2>
+
+            <!-- Article: Um conteúdo independente, como uma notícia ou blog post -->
+            <article>
+                <h3>Artigo sobre HTML Semântico</h3>
+                <p>Este é um artigo que discute a importância das tags semânticas no HTML</p>
+
+                <!-- Blockquote: Citação em bloco de uma fonte externa -->
+                <blockquote cite="https://www.exemplo.com"></blockquote>
+                    A utilização de tags semânticas melhora a acessibilidade e o SEO.
+                </blockquote>
+
+                <!-- Q: Citação curta inline -->
+                <p>Como dizia Tim Berners-Lee: <q>O HTML deve descrever o significado do conteúdo, não a sua aparência.</q></p>
+
+            </article>
+
+            <!-- Figure: Usado para conteúdo visual com uma legenda associada -->
+            <figure></figure>
+                <!-- Picture: Exibe imagens de diferentes resoluções ou formatos -->
+                <picture>
+                    <source media="(min-width: 800px)" srcset="imagem-grande.jpg">
+                    <source media="(min-width: 400px)" srcset="imagem-media.jpg">
+                    <img src="imagem-pequena.jpg" alt="Exemplo de uma paisagem">
+                </picture>
+
+                <!-- Figcaption: Legenda associada à imagem ou conteúdo gráfico -->
+                <figcaption>Figura 1: Exemplo de uma paisagem em diferentes tamanhos.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <!-- Footer: Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Meu Website. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
