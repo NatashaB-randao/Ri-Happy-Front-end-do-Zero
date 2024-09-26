@@ -1,6 +1,8 @@
 # Ri Happy - Front-end do Zero
 
-![Logo do Bootcamp](logo.webp) 
+<p align="center">
+    <img src="logo.webp" alt="Logo do Bootcamp" />
+</p>
 
 ## Descrição
 
@@ -25,9 +27,11 @@ Durante o bootcamp, participei das seguintes atividades:
 
 ## Tecnologias Utilizadas
 
-- HTML
-- CSS
-- JavaScript
+<p align="center">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+</p>
 
 ## Como Começar
 
@@ -45,4 +49,4 @@ Sinta-se à vontade para contribuir com este repositório. Se você tiver sugest
 ## Contato
 
 Para mais informações ou dúvidas, entre em contato:
-- **LinkedIn**: [Seu LinkedIn](www.linkedin.com/in/natasha-brandão)
+- **LinkedIn**: [Natasha Brandão](www.linkedin.com/in/natasha-brandão)
