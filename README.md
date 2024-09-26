@@ -1,7 +1,7 @@
 # Ri Happy - Front-end do Zero
 
 <p align="center">
-    <img src="logo.webp" alt="Logo do Bootcamp" />
+    <img src="logo.webp" alt="Logo do Bootcamp" width="300"/> 
 </p>
 
 ## Descrição
