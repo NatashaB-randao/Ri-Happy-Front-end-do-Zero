@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Margin</title>
+    <style>
+        /* 
+        Este exemplo demonstra o uso de Margin no CSS. 
+        A margem é usada para criar espaço ao redor de elementos, fora de suas bordas.
+        */
+
+        .caixa {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 20px; /* Define uma margem de 20px em todos os lados */
+            padding: 10px; /* Adiciona espaço interno ao redor do conteúdo */
+            border: 2px solid blue; /* Adiciona uma borda ao redor da caixa */
+        }
+
+        .caixa-um {
+            margin-top: 50px; /* Margem superior de 50px */
+        }
+
+        .caixa-dois {
+            margin-left: 100px; /* Margem esquerda de 100px */
+        }
+
+        .caixa-tres {
+            margin: 30px 0 0 50px; /* Margem: 30px em cima, 0px nas laterais, 50px à esquerda */
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa caixa-um">Caixa com margem superior de 50px</div>
+    <div class="caixa caixa-dois">Caixa com margem esquerda de 100px</div>
+    <div class="caixa caixa-tres">Caixa com margem de 30px em cima e 50px à esquerda</div>
+</body>
+</html>
