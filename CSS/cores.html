@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Cores no CSS</title>
+    <style>
+        /* 
+        Este exemplo demonstra o uso de diferentes formas de especificar cores no CSS.
+        Incluímos cores pré-definidas, a palavra-chave 'currentcolor', hexadecimal, 
+        hexadecimal com transparência, RGB, RGBA, HSL e HSLA.
+        */
+
+        /* Cores Pré-Definidas */
+        .cor-nomeada {
+            background-color: red; /* Cor nomeada: vermelho */
+            color: white;
+            padding: 10px;
+        }
+
+        /* Palavra-chave 'currentcolor' */
+        .currentcolor-exemplo {
+            color: blue; /* Define a cor do texto */
+            border: 2px solid currentcolor; /* A borda usa a mesma cor do texto (currentcolor) */
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        /* Hexadecimal */
+        .cor-hexadecimal {
+            background-color: #ff5733; /* Cor hexadecimal */
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        /* Hexadecimal com transparência (RGBA equivalente) */
+        .cor-hexadecimal-transparencia {
+            background-color: #ff573380; /* Cor hexadecimal com transparência (50%) */
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        /* RGB */
+        .cor-rgb {
+            background-color: rgb(60, 179, 113); /* Cor em RGB (green sea) */
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        /* RGBA (com transparência) */
+        .cor-rgba {
+            background-color: rgba(60, 179, 113, 0.5); /* RGB com transparência (50%) */
+            color: black;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        /* HSL */
+        .cor-hsl {
+            background-color: hsl(120, 75%, 50%); /* Cor em HSL (verde brilhante) */
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        /* HSLA (com transparência) */
+        .cor-hsla {
+            background-color: hsla(120, 75%, 50%, 0.5); /* HSL com transparência (50%) */
+            color: black;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cor-nomeada">Cor Pré-Definida: Red</div>
+    <div class="currentcolor-exemplo">Palavra-Chave 'currentcolor': borda azul</div>
+    <div class="cor-hexadecimal">Cor Hexadecimal: #ff5733</div>
+    <div class="cor-hexadecimal-transparencia">Hexadecimal com Transparência: #ff573380</div>
+    <div class="cor-rgb">Cor RGB: rgb(60, 179, 113)</div>
+    <div class="cor-rgba">Cor RGBA (com transparência): rgba(60, 179, 113, 0.5)</div>
+    <div class="cor-hsl">Cor HSL: hsl(120, 75%, 50%)</div>
+    <div class="cor-hsla">Cor HSLA (com transparência): hsla(120, 75%, 50%, 0.5)</div>
+</body>
+</html>
