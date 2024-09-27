@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinador Filho</title>
+    <style>
+        /* Aplica o estilo apenas aos <p> que são filhos diretos da div */
+        div > p {
+            color: blue;
+            font-size: 18px;
+        }
+
+        /* Aplica o estilo apenas aos <span> que são filhos diretos da div */
+        div > span {
+            font-weight: bold;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Este parágrafo é filho direto da div e será azul.</p>
+        <span>Este span é filho direto da div e será laranja.</span>
+
+        <div>
+            <p>Este parágrafo é neto da div e não será afetado.</p>
+            <span>Este span é neto da div e também não será afetado.</span>
+        </div>
+    </div>
+
+    <p>Este parágrafo está fora da div e não será afetado.</p>
+</body>
+</html>
