@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Padding</title>
+    <style>
+        /* 
+        Este exemplo demonstra o uso de Padding no CSS. 
+        O padding é utilizado para criar espaço interno entre o conteúdo de um elemento e suas bordas.
+        */
+
+        .caixa {
+            width: 200px;
+            height: 100px;
+            background-color: lightgreen;
+            padding: 20px; /* Define um padding de 20px em todos os lados */
+            border: 2px solid green; /* Adiciona uma borda ao redor da caixa */
+            margin: 10px; /* Adiciona uma margem ao redor da caixa */
+        }
+
+        .caixa-um {
+            padding-top: 30px; /* Padding superior de 30px */
+        }
+
+        .caixa-dois {
+            padding-left: 50px; /* Padding esquerdo de 50px */
+        }
+
+        .caixa-tres {
+            padding: 10px 20px 30px 40px; /* Padding: 10px em cima, 20px à direita, 30px embaixo, 40px à esquerda */
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa caixa-um">Caixa com padding superior de 30px</div>
+    <div class="caixa caixa-dois">Caixa com padding esquerdo de 50px</div>
+    <div class="caixa caixa-tres">Caixa com padding de 10px em cima, 20px à direita, 30px embaixo, 40px à esquerda</div>
+</body>
+</html>
