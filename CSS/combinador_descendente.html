@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinador Descendente</title>
+    <style>
+        /* Aplica o estilo apenas aos <p> que são descendentes da div */
+        div p {
+            color: green;
+            font-size: 18px;
+        }
+
+        /* Aplica o estilo apenas aos <span> que são descendentes da div */
+        div span {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Este parágrafo está dentro da div e será verde.</p>
+        <span>Este texto é um span dentro da div e será vermelho.</span>
+    </div>
+
+    <p>Este parágrafo está fora da div e não será afetado.</p>
+    <span>Este span está fora da div e também não será afetado.</span>
+</body>
+</html>
