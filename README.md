@@ -49,4 +49,4 @@ Sinta-se à vontade para contribuir com este repositório. Se você tiver sugest
 ## Contato
 
 Para mais informações ou dúvidas, entre em contato:
-- **LinkedIn**: [Natasha Brandão](www.linkedin.com/in/natasha-brandão)
+- **LinkedIn**: [Natasha Brandão](https://www.linkedin.com/in/natasha-brand%C3%A3o/)
