@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinador Irmão</title>
+    <style>
+        /* 
+        Aqui está um exemplo de código que demonstra o uso do Combinador Irmão no CSS. 
+        Este combinador permite aplicar estilos a um elemento que é um irmão de outro elemento. 
+        Existem dois tipos: o combinador irmão adjacente (+) e o combinador irmão geral (~).
+        */
+
+        /* Aplica o estilo apenas ao <span> que é irmão adjacente ao <p> */
+        p + span {
+            color: green;
+            font-weight: bold;
+        }
+
+        /* Aplica o estilo a todos os <div> que são irmãos de <h2> */
+        h2 ~ div {
+            border: 2px solid blue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Título</h2>
+    <div>Este div será afetado pelo combinador irmão geral.</div>
+    <div>Este div também será afetado pelo combinador irmão geral.</div>
+
+    <p>Este parágrafo é seguido por um span.</p>
+    <span>Este span é um irmão adjacente do parágrafo e será verde e em negrito.</span>
+
+    <p>Este parágrafo não tem um span imediatamente após ele.</p>
+    <span>Este span não será afetado porque não é irmão adjacente do primeiro parágrafo.</span>
+</body>
+</html>
