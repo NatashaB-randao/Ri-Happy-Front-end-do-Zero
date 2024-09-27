@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Box Sizing</title>
+    <style>
+        /* 
+        Este exemplo demonstra o uso de Box Sizing no CSS. 
+        A propriedade box-sizing altera o modelo de caixa de um elemento, 
+        afetando como a largura e a altura são calculadas.
+        */
+
+        /* Usando box-sizing como border-box */
+        .caixa-border-box {
+            box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura e altura */
+            width: 200px;
+            height: 100px;
+            padding: 20px; /* Padding interno */
+            border: 5px solid blue; /* Borda */
+            background-color: lightcoral;
+        }
+
+        /* Usando box-sizing como content-box */
+        .caixa-content-box {
+            box-sizing: content-box; /* O padding e as bordas são adicionados à largura e altura */
+            width: 200px;
+            height: 100px;
+            padding: 20px; /* Padding interno */
+            border: 5px solid green; /* Borda */
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa-border-box">Caixa com box-sizing: border-box</div>
+    <div class="caixa-content-box">Caixa com box-sizing: content-box</div>
+</body>
+</html>
