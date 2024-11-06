@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    background-color: #1C1C1C; /* Cor de fundo padrão */
+    background-color: #000000; /* Cor de fundo padrão */
 }
 
 .banner {
@@ -11,19 +11,22 @@ body {
     height: 600px;
     padding-top: 60px;
     border-bottom: 1px solid #33A8DB80;
+    text-align: center;
+    overflow: hidden;
+    color: white;
 }
 
 .banner-background {
     position: absolute;
     top: -127px; /* Ajuste da posição vertical */
     left: 0;
-    width: 1440px; /* Largura ajustada */
-    height: 732px; /* Altura ajustada */
+    width: 1880px; /* Largura ajustada */
+    height: 780px; /* Altura ajustada */
     object-fit: cover;
     z-index: -1; /* Mantém a imagem atrás do conteúdo */
-    opacity: 0.7; /* Opacidade aumentada para deixar a imagem mais visível */
+    opacity: 0.9; /* Opacidade aumentada para deixar a imagem mais visível */
     gap: 0px; /* Define o espaçamento entre os elementos */
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(49, 168, 221, 0) 100%); /* Gradiente suave */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);  /* Gradiente suave */
 }
 
 .banner .banner-content {
