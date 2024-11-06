@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
 body {
-    background-color: black;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #1C1C1C; /* Cor de fundo padrão */
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url('./assets/images/banner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: relative;
     height: 600px;
     padding-top: 60px;
     border-bottom: 1px solid #33A8DB80;
+}
+
+.banner-background {
+    position: absolute;
+    top: -127px; /* Ajuste da posição vertical */
+    left: 0;
+    width: 1440px; /* Largura ajustada */
+    height: 732px; /* Altura ajustada */
+    object-fit: cover;
+    z-index: -1; /* Mantém a imagem atrás do conteúdo */
+    opacity: 0.7; /* Opacidade aumentada para deixar a imagem mais visível */
+    gap: 0px; /* Define o espaçamento entre os elementos */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(49, 168, 221, 0) 100%); /* Gradiente suave */
 }
 
 .banner .banner-content {
@@ -19,7 +32,6 @@ body {
     margin: auto;
     text-align: center;
 }
-
 
 .banner .logo {
     background-color: rgba(0, 0, 0, 0.2); 
@@ -40,7 +52,7 @@ body {
 
 .banner h1 {
     font-size: 40px;
-    font-weight: 900px;
+    font-weight: 900;
     text-transform: uppercase;
     color: transparent;
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
@@ -65,6 +77,14 @@ body {
     border-image-slice: 10;
     border-radius: 30px;
 }
+
+.banner .banner-content button:hover {
+    background-color: #33a8db;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
 h2 {
     font-size: 32px;
     color: #33A8DB;
@@ -139,8 +159,6 @@ section {
     margin: 0;
 }
 
-
-
 #professional-challenges {
     text-align: center;
     width: 800px;
@@ -155,7 +173,7 @@ footer {
     text-align: center;
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
     border-top: 1px solid #33A8DB80;
-    }
+}
 
 footer .dio-logo {
     width: 300px;
@@ -165,11 +183,4 @@ footer a {
     color: #33A8DB;
     font-weight: bold;
     text-decoration: none;
-}
-
-.banner .banner-content button:hover {
-    background-color: #33a8db;
-    color: white;
-    border: none;
-    transition: background-color 0.3s ease;
 }
