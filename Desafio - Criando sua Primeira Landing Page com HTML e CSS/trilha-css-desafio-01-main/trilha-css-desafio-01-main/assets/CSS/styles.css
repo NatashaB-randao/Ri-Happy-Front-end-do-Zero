@@ -21,12 +21,12 @@ body {
     top: -127px; /* Ajuste da posição vertical */
     left: 0;
     width: 1880px; /* Largura ajustada */
-    height: 780px; /* Altura ajustada */
+    height: 790px; /* Altura ajustada */
     object-fit: cover;
     z-index: -1; /* Mantém a imagem atrás do conteúdo */
     opacity: 0.9; /* Opacidade aumentada para deixar a imagem mais visível */
     gap: 0px; /* Define o espaçamento entre os elementos */
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);  /* Gradiente suave */
+    background: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));  /* Gradiente suave */
 }
 
 .banner .banner-content {
