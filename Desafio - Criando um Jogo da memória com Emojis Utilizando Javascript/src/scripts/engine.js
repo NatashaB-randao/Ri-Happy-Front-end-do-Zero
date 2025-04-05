@@ -53,7 +53,11 @@ function checkMatch() {
     openCards = [];
 
     if(document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert("Você venceu!");
-        location.reload();
+        document.getElementById("winModal").style.display = "flex";
     }
+    
+}
+
+function resetGame() {
+    window.location.reload();
 }
