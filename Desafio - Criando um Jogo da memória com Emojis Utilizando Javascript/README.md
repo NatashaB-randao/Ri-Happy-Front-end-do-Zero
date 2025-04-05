@@ -43,8 +43,10 @@ O jogo da memória é composto por um grid de cartas com emojis ocultos. O objet
 
 3. Abra o arquivo index.html no seu navegador.
 
-**📁 Estrutura de Pastas**
-📦 projeto/
+📁 **Estrutura de Pastas**
+
+```bash
+projeto/
 ├── index.html
 └── src/
     ├── scripts/
