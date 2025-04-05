@@ -17,8 +17,11 @@ O jogo da memória é composto por um grid de cartas com emojis ocultos. O objet
 
 ## 📸 Demonstração
 
-<img src="Jogo.png" alt="Screenshot do jogo" width="500"/>
-<img src="Tela final.png" alt="Screenshot do jogo" width="500"/>
+<p align="center">
+  <img src="Jogo.png" alt="Screenshot do jogo" width="45%"/>
+  <img src="Tela final.png" alt="Screenshot da tela final" width="45%"/>
+</p>
+
 
 > 💡 Dica: Use `Windows + .` para abrir o teclado de emojis no Windows!
 
@@ -33,3 +36,29 @@ O jogo da memória é composto por um grid de cartas com emojis ocultos. O objet
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/jogo-da-memoria-emoji.git
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd jogo-da-memoria-emoji
+
+3. Abra o arquivo index.html no seu navegador.
+
+**📁 Estrutura de Pastas**
+📦 projeto/
+├── index.html
+├── src/
+│   ├── styles/
+│   │   ├── reset.css
+│   │   └── main.css
+│   └── scripts/
+│       └── engine.js
+
+**✅ Desafio da DIO**
+🎯 **Objetivo:** Reproduzir passo a passo o projeto visto na aula da plataforma, aplicar os conhecimentos adquiridos e entregar o repositório no GitHub.
+
+🔗 [Link para o desafio na DIO](https://web.dio.me/project/criando-um-jogo-da-memoria-com-emojis/learning/b9abc3c3-bca8-4f8d-850f-0a450d7742cb?back=/track/coding-future-front-end-do-zero&tab=undefined&moduleId=undefined)
+
+
+**🙋🏻‍♀️ Autora**
+Feito com 💜 por Natasha Brandão
+@nat_datascience
