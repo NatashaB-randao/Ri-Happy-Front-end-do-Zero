@@ -63,5 +63,7 @@ projeto/
 
 
 **🙋🏻‍♀️ Autora**
+
 Feito com 💜 por Natasha Brandão
-@nat_datascience
+
+[@nat_datascience](https://www.instagram.com/nat_datascience)
