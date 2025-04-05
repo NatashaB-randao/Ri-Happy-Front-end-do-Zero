@@ -54,9 +54,9 @@ projeto/
     └── styles/
         ├── reset.css
         └── main.css
+```
 
-
-**✅ Desafio da DIO**
+✅ Desafio da DIO**
 🎯 **Objetivo:** Reproduzir passo a passo o projeto visto na aula da plataforma, aplicar os conhecimentos adquiridos e entregar o repositório no GitHub.
 
 🔗 [Link para o desafio na DIO](https://web.dio.me/project/criando-um-jogo-da-memoria-com-emojis/learning/b9abc3c3-bca8-4f8d-850f-0a450d7742cb?back=/track/coding-future-front-end-do-zero&tab=undefined&moduleId=undefined)
