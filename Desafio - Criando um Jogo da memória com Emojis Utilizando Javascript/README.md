@@ -18,8 +18,8 @@ O jogo da memória é composto por um grid de cartas com emojis ocultos. O objet
 ## 📸 Demonstração
 
 <p align="center" style="display: flex; justify-content: center; gap: 10px;">
-  <img src="Jogo.png" alt="Screenshot do jogo" style="width: 400px; height: auto;" />
-  <img src="Tela final.png" alt="Screenshot da tela final" style="width: 400px; height: auto;" />
+  <img src="Jogo.png" alt="Screenshot do jogo" style="height: 300px; width: auto; object-fit: cover;" />
+  <img src="Tela final.png" alt="Screenshot da tela final" style="height: 300px; width: auto; object-fit: cover;" />
 </p>
 
 > 💡 Dica: Use `Windows + .` para abrir o teclado de emojis no Windows!
