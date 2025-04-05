@@ -40,17 +40,19 @@ O jogo da memória é composto por um grid de cartas com emojis ocultos. O objet
    ```bash
    cd jogo-da-memoria-emoji
 
+
 3. Abra o arquivo index.html no seu navegador.
 
 **📁 Estrutura de Pastas**
 📦 projeto/
 ├── index.html
-├── src/
-│   ├── styles/
-│   │   ├── reset.css
-│   │   └── main.css
-│   └── scripts/
-│       └── engine.js
+└── src/
+    ├── scripts/
+    │   └── engine.js
+    └── styles/
+        ├── reset.css
+        └── main.css
+
 
 **✅ Desafio da DIO**
 🎯 **Objetivo:** Reproduzir passo a passo o projeto visto na aula da plataforma, aplicar os conhecimentos adquiridos e entregar o repositório no GitHub.
