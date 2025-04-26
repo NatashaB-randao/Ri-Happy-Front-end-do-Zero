@@ -9,8 +9,9 @@ Imprima no console o valor que será gasto para realizar esta viagem.
 */
 
 let precoCombustivel = 5.79; 
-let gastoMedioPorKm = 10; 
+let KmPorLitro = 10; 
 let distanciaEmKm = 100;
 
-let valorGasto = (distanciaEmKm / gastoMedioPorKm) * precoCombustivel;
+let litrosConsumidos = (distanciaEmKm / KmPorLitro);
+let valorGasto = (litrosConsumidos * precoCombustivel); 
 console.log("O valor gasto para realizar essa viagem é de R$" + valorGasto.toFixed(2)); // toFixed(2) para limitar a 2 casas decimais
