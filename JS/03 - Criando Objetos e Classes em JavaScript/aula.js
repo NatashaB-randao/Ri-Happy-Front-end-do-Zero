@@ -56,3 +56,28 @@ console.log(pessoa[atributo]); // Acessando a propriedade usando colchetes
     para criar objetos, permitindo encapsular dados e funcionalidades relacionadas em uma única entidade.
 */
 
+
+class Pessoa {
+    constructor(name, age, job) {
+        this.name = name;
+        this.age = age;
+        this.job = job;
+    }
+
+    describe() {
+        console.log(`My name is ${this.name}, I am ${this.age} years old and I work as a ${this.job}.`);
+    }
+}
+
+const pessoa = {
+    name: "Natasha",
+    age: 26,
+    job: "Developer",
+
+    describe: function() {
+        console.log(`My name is ${this.name}, I am ${this.age} years old and I work as a ${this.job}.`);
+    }
+}
+
+const atributo = 'age';
+console.log(pessoa[atributo]); // Acessando a propriedade usando colchetes
