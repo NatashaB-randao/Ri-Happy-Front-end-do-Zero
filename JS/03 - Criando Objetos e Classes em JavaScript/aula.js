@@ -69,15 +69,14 @@ class Pessoa {
     }
 }
 
-const pessoa = {
-    name: "Natasha",
-    age: 26,
-    job: "Developer",
 
-    describe: function() {
-        console.log(`My name is ${this.name}, I am ${this.age} years old and I work as a ${this.job}.`);
-    }
-}
+const natasha = new Pessoa("Natasha", 26, "Developer");
+const ana = new Pessoa("Ana", 30, "Designer");
 
-const atributo = 'age';
-console.log(pessoa[atributo]); // Acessando a propriedade usando colchetes
+
+console.log(natasha);
+console.log(ana);
+
+natasha.describe();
+ana.describe();
+
