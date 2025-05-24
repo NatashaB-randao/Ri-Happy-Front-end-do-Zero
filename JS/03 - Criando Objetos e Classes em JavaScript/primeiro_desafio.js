@@ -21,8 +21,15 @@ class Carro {
         this.gastoMedioPorKm = gastoMedio;
     }
 
+    // Método para calcular o custo do percurso
+    calcularCusto(distancia, precoCombustivel) {
+        const custo = (distancia * this.gastoMedioPorKm) * precoCombustivel;
+        return custo;
+    }
+
 }
 
 // Instanciando um objeto da classe Carro
 const uno = new Carro("Fiat", "preto", 1 / 12);
-console.log(uno);
+uno.calcularCusto(70, 5);
+console.log(`O custo do percurso é: R$ ${uno.calcularCusto(70, 5).toFixed(2)}`);
