@@ -58,9 +58,15 @@ console.log(pessoa[atributo]); // Acessando a propriedade usando colchetes
 
 
 class Pessoa {
-    constructor(name, age, job) {
+    name;
+    age;    
+    yearOfBirth;
+    job;
+
+    constructor(name, age, yearOfBirth, job) {
         this.name = name;
         this.age = age;
+        this.yearOfBirth = 2025 - age;
         this.job = job;
     }
 
@@ -70,13 +76,19 @@ class Pessoa {
 }
 
 
-const natasha = new Pessoa("Natasha", 26, "Developer");
-const ana = new Pessoa("Ana", 30, "Designer");
+function comparePeople(p1, p2) {
+    if (p1.age > p2.age) {
+        console.log(`${p1.name} is older than ${p2.name}`);
+    } else if (p1.age < p2.age) {
+        console.log(`${p2.name} is older than ${p1.name}`);
+    } else {
+        console.log(`${p1.name} and ${p2.name} are the same age`);
+    }
+}
 
+const natasha = new Pessoa("Natasha", 26, 1999, "Developer");
+const ana = new Pessoa("Ana", 30, 1993, "Designer");
 
-console.log(natasha);
-console.log(ana);
-
+comparePeople(natasha, ana);
 natasha.describe();
-ana.describe();
 
