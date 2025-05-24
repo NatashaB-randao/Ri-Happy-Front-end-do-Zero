@@ -8,16 +8,21 @@ Crie uma Classe para representar carros;
     seja capaz de calcular o valor do combustível para realizar
     este percurso. */
 
-class Carro {   
+class Carro {
+    // Atributos
+    marca;
+    cor;
+    gastoMedioPorKm;
+
+    // Método construtor
     constructor(marca, cor, gastoMedio) {
         this.marca = marca;
         this.cor = cor;
         this.gastoMedioPorKm = gastoMedio;
     }
 
-    calcularCusto(distancia, precoCombustivel) {
-        const custo = (distancia / this.gastoMedioPorKm) * precoCombustivel;
-        return custo;
-    }
 }
-    
+
+// Instanciando um objeto da classe Carro
+const uno = new Carro("Fiat", "preto", 1 / 12);
+console.log(uno);
